@@ -1,0 +1,12 @@
+public class Pass_by_value {
+    static void modify(int a) {
+        a = a + 10;
+    }
+
+    public static void main(String[] args) {
+        int x = 5;
+        modify(x);
+        System.out.println(x); // Output: 5
+    }
+
+}
